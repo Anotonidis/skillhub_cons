@@ -1,0 +1,511 @@
+@media (min-width: 768px) and (max-width: 992px) {
+   .main-title {
+      margin-top: 55px !important;
+      h1 {
+         font-size: 40px !important;
+      }
+
+      button {
+         padding: 15px 0 !important;
+      }
+   }
+
+   .sub-title-expert {
+      font-size: 16px !important;
+      text-align: center !important;
+   }
+
+   .main-header {
+      background-position-y: center !important;
+   }
+
+   .main-title-text {
+      text-align: start !important;
+      padding-top: 250px !important;
+      font-size: 16px !important;
+   }
+
+   .description {
+      position: absolute;
+      max-width: 700px;
+   }
+
+   .pt-5 {
+      padding-top: 9rem !important;
+   }
+
+   .target-audience-wrap {
+      padding-top: 9rem !important;
+   }
+
+   .target-audience-list {
+      img {
+         max-width: 75% !important;
+      }
+   }
+
+   .target-audience {
+      p {
+         text-align: left !important;
+         font-size: 14px !important;
+      }
+   }
+
+   .consultant-title {
+      p {
+         font-size: 14px;
+         line-height: 120%;
+         color: #555555;
+      }
+   }
+
+   .consultant-description {
+      padding: 0 !important;
+      margin-top: 40px;
+   }
+
+   .it-consultation-text {
+      position: absolute;
+      max-width: 295px;
+   }
+
+   .zoom-consultation-descr {
+      img {
+         margin: 200px auto 50px !important;
+      }
+
+      button {
+         padding: 15px 0 !important;
+      }
+   }
+
+   .specialists__list-wrapper {
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+   }
+
+   .after-consultation-list {
+      p {
+         font-size: 16px !important;
+      }
+   
+   }
+
+   .after-consultation-item {
+      padding-bottom: 30px;
+   }
+
+   .price {
+      padding-top: 0 !important;
+   }
+
+   .introduct {
+      position: absolute;
+      max-width: 295px;
+      margin-top: 350px;
+      text-align: left !important;
+      left: 25px;
+   }
+
+   .bonus {
+      p {
+         padding-top: 0;
+      }
+   }
+
+   .price-descr {
+      img {
+         margin: 150px auto 10px !important;
+      }
+   }
+
+   .reviews-title {
+      padding-bottom: 40px;
+   }
+
+   .button-block {
+      justify-content: center !important;
+   }
+
+   .reviews-block-over {
+      align-items: baseline;
+      flex-direction: column;
+      position: relative;
+         &::after {
+            content: '';
+            position: absolute;
+            bottom: 49px;
+            width: 97% !important;
+            height: 173px;
+            background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.03) 100%);
+            transform: matrix(1, 0, 0, -1, 0, 0);
+         }
+         // &::before {
+         //    content: '';
+         //    position: absolute;
+         //    width: 97% !important;
+         //    height: 49px;
+         //    z-index: 1;
+         //    bottom: 0;
+         //    background: #F3F3F3;
+         //    transform: matrix(1, 0, 0, -1, 0, 0);
+         // }
+      }
+   }
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+   .main-title {
+      h1 {
+         font-size: 42px !important;
+      }
+
+      button {
+         max-width: 100% !important;
+      }
+   }
+
+   .main-title-text {
+      padding-top: 300px !important;
+   }
+
+   .sub-title-expert {
+      font-size: 20px !important;
+      padding-top: 20px !important;
+   }
+
+   .target-audience {
+      margin-top: 50px !important;
+   }
+
+   .description {
+      position: absolute;
+      max-width: 295px;
+
+      p {
+         font-size: 14px !important;
+      }
+   }
+
+   .target-audience-list {
+      flex-direction: column;
+      margin-top: 200px;
+
+      img {
+         max-width: 60% !important;
+      }
+   }
+
+   .target-audience-wrap {
+      img {
+         margin: 0 auto;
+      }
+
+      p {
+         font-size: 14px !important;
+         text-align: left !important;
+      }
+   }
+
+   .consultant {
+      margin-top: 100px !important;
+   }
+
+   .consultant-title {
+      p {
+         color: #555555;
+         font-size: 14px;
+      }
+   }
+
+   .consultant-description {
+      padding-left: 0 !important;
+      p {
+         font-size: 14px !important;
+      }
+   }
+
+   .specialists__list-wrapper {
+      padding-left: 0 !important;
+   }
+
+   .specialists__list,
+   .second-list {
+      display: none !important;
+   }
+
+   .specialists__list-second {
+      display: block !important;
+      padding-left: 40px !important;
+      list-style-type: disc !important;
+   }
+   
+   // .specialists__list-second {
+   //    display: none !important;
+   // }
+
+   .specialists__list,
+   .second-list {
+      display: none !important;
+   }
+
+   .specialists__list-second {
+      display: block !important;
+      padding-left: 40px !important;
+      list-style-type: disc !important;
+   }
+
+   // .specialists__list,
+   // .second-list {
+   //    display: none !important;
+   // }
+
+   .reviews-description-block {
+      flex-direction: row-reverse;
+      padding-left: 10px !important;
+      padding-right: 0 !important;
+      img {
+         max-height: 90px !important;
+         width: 90px;
+         position: absolute;
+         left: 26px;
+      }
+   }
+
+   .reviews-description-wrap {
+      h5 {
+         max-width: 130px;
+         margin: 0 auto;
+         font-size: 20px !important;
+      } 
+   }
+
+   .reviews-description-subtitle {
+      max-width: 130px;
+      margin: 0 auto;
+   }
+
+   .reviews-description-desc {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+
+   .reviews-block-over {
+      position: relative;
+      align-items: baseline;
+      flex-direction: column;
+      &::after {
+         content: '';
+         position: absolute;
+         bottom: 49px;
+         width: 94% !important;
+         height: 173px;
+         background: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0.03) 100%);
+         transform: matrix(1, 0, 0, -1, 0, 0);
+      }
+      // &::before {
+      //    content: '';
+      //    position: absolute;
+      //    width: 94% !important;
+      //    height: 49px;
+      //    z-index: 1;
+      //    bottom: 0;
+      //    background: #F3F3F3;
+      //    transform: matrix(1, 0, 0, -1, 0, 0);
+      // }
+   }
+
+
+
+
+
+   .it-consultation-text {
+      position: absolute;
+      max-width: 295px;
+   }
+
+   .zoom-consultation-descr {
+      margin-top: 200px;
+
+      p {
+         font-size: 14px;
+      }
+
+      button {
+         max-width: 100%;
+      }
+   }
+
+   .after-consultation,
+   .specialists {
+      border-radius: 20px !important;
+      background-color: transparent !important;
+      position: relative;
+      z-index: 1;
+      margin-top: 100px !important;
+
+      h4 {
+         text-align: left !important;
+         padding-left: 10px;
+      }
+      &::after {
+         content: '';
+         position: absolute;
+         left: 0;
+         background-color: #EBEAEE;
+         width: 100%;
+         height: 100%;
+         top: 0;
+         z-index: -1;
+         border-radius: 20px;
+      }
+   }
+
+   .specialists__block-text {
+      text-align: left !important;
+      font-size: 14px !important;
+   }
+
+   .specialists__list-second {
+      p {
+         text-align: left;
+      }
+   }
+
+   .after-consultation__block {
+      h4,
+      p {
+         text-align: left !important;
+      }
+
+
+   }
+
+   .after-consultation-item {
+      margin-bottom: 50px !important;
+      
+      p {
+         text-align: center !important;
+         font-size: 16px !important;
+      }
+
+   }
+
+   .after-consultation-list {
+      padding: 0 !important;
+
+   }
+
+   .after-consultation__block {
+      p {
+         font-size: 14px !important;
+         // padding-left: 18px;
+      }
+   }
+
+   
+   .economy-text {
+      position: absolute;
+      max-width: 295px;
+      margin-top: 300px;
+   }
+
+   .price {
+      padding-top: 50px !important;
+   }
+
+   .bonus {
+      p {
+         font-size: 14px;
+      }
+   }
+
+   .introduct {
+      text-align: left !important;
+   }
+
+   .price-descr {
+      margin-top: 200px;
+   }
+
+   .support,
+   .materials {
+      p {
+         font-size: 14px !important;
+      }
+   }
+
+   .materials {
+      padding-top: 30px;
+   }
+
+   .price-descr {
+      img {
+         max-width: 100%;
+      }
+   }
+
+   .reviews-title {
+      h4 {
+         margin-bottom: 40px;
+      }
+   }
+
+   .button-block {
+      max-width: 100% !important;
+      button {
+         max-width: 100% !important;
+      }
+   }
+
+   
+}
+
+@media (min-width: 768px) {
+   .specialists__list-second {
+      display: none !important;
+   }
+
+   
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+   .reviews-description-block {
+      img {
+         left: 6px !important;
+         width: 75px;
+      }
+   }
+
+}
+
+@media (min-width: 447px) and (max-width: 767px) {
+.it-consultation-text,
+.economy-text {
+   margin-top: 240px !important;
+   }
+
+   .main-title {
+      p {
+         text-align: center !important;
+      }
+   }
+}
+
+@media (max-width: 1199px) {
+   .specialists__list li:not(:last-child)::after {
+      content: "";
+      position: absolute;
+      background-image: url(../images/arrow.svg);
+      background-repeat: no-repeat;
+      width: 38px;
+      height: 16px;
+      left: 130px !important;
+      top: 5px;
+   }
+
+   .second-list li:not(:last-child)::after {
+      left: 210px !important;
+   }
+
+}
